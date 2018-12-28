@@ -1,0 +1,53 @@
+/* Webbugs */
+
+.webbug_graphs {
+    text-align: center;
+}
+
+.webbug_graphs * {
+    text-align: left;
+}
+
+.webbug_graph {
+    display: inline-block;
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+.webbug_graph > canvas {
+    margin-right: 1em;
+}
+
+.webbug_graph_legend {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.webbug_graph_legend ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.webbug_graph_legend li > span {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+}
+
+th.sortable {
+    cursor: pointer;
+}
+
+th.sortable.sorted:after {
+    content: '▲';
+    float:right;
+}
+
+th.sortable.sorted.reverse:after {
+    content: '▼'
+
+}
